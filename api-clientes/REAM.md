@@ -2,7 +2,7 @@
 
 API desenvolvida em Node.js, Express e MySQL para gerenciamento de clientes, produtos, usuários e pedidos.
 
-## Tecnologias
+## Tecnologias utilizadas
 
 - Node.js
 - Express
@@ -10,9 +10,22 @@ API desenvolvida em Node.js, Express e MySQL para gerenciamento de clientes, pro
 - Nodemon
 - Postman
 
-## Como instalar
+## Pré-requisitos
 
-Clone o projeto e entre na pasta:
+Antes de executar o projeto, é necessário ter instalado:
+
+- Node.js
+- MySQL
+- Git
+
+## Instalação
+
+Clone o repositório:
 
 ```bash
+git clone URL_DO_REPOSITORIO
+
 cd api-clientes
+
+npm install
+
