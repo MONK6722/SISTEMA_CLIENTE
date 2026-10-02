@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/produtos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nome\": \"Teclado\",\r
+
+    \  \"descricao\": \"Teclado USB\",\r
+
+    \  \"preco\": 49.99,\r
+
+    \  \"estoque\": 25\r
+
+    }"
+order: 1480310206194

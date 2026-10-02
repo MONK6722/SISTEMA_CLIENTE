@@ -1,0 +1,5 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/pedidos
+method: GET
+order: 1939250333690682

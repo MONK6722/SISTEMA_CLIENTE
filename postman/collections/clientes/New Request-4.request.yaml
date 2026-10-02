@@ -1,0 +1,12 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/clientes/5
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"telefone\": \"11966667555\"\r
+
+    }"
+order: 4335557086188887

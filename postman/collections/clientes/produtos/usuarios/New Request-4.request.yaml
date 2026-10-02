@@ -1,0 +1,5 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/pedidos/8/itens/4
+method: DELETE
+order: 4497832208720788

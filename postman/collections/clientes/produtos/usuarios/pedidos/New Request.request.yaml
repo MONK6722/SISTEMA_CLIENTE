@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/pedidos/
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"cliente_id\": 2,\r
+
+    \  \"valor_total\": 150.00\r
+
+    }"
+order: 1790979480159

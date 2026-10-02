@@ -1,0 +1,20 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/usuarios/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \  \"nome\": \"Carlos Silva\",\r
+
+    \  \"email\": \"carlos@email.com\",\r
+
+    \  \"senha\": \"654321\",\r
+
+    \  \"perfil\": \"admin\",\r
+
+    \  \"status\": \"ativo\"\r
+
+    }"
+order: 3187583432474489

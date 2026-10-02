@@ -1,0 +1,18 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/clientes
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nome\": \"Juao Paulo\",\r
+
+    \  \"email\": \"Juao@email.com\",\r
+
+    \  \"telefone\": \"12309818651\",\r
+
+    \  \"status\": \"ativo\"\r
+
+    }"
+order: 2842722916657686

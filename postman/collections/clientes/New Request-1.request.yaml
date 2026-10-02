@@ -1,0 +1,5 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/clientes/5
+method: GET
+order: 1096716666649059

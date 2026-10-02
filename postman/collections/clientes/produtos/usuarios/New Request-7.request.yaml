@@ -1,0 +1,8 @@
+$kind: http-request
+name: New Request
+url: http://localhost:3000/usuarios/1
+method: PATCH
+body:
+  type: json
+  content: "{\r\n  \"status\": \"inativo\"\r\n}"
+order: 3752022844027718
